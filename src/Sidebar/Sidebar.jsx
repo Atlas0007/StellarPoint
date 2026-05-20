@@ -55,7 +55,7 @@ const Sidebar = ({ isOpen: externalIsOpen, onClose }) => {
             <nav className="space-y-1 sm:space-y-1.5">
               {/* Dashboard */}
               <Link
-                to="/dashboard" 
+                to="/" 
                 className={`w-full flex items-center gap-3 sm:gap-3.5 md:gap-4 px-4 sm:px-5 md:px-6 py-3 sm:py-3.5 md:py-4 rounded-lg transition-all duration-200 ${
                   isActive('/dashboard') 
                     ? 'bg-[#0d3a3a] text-[#00d4aa]' 

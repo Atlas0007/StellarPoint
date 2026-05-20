@@ -92,7 +92,7 @@ export default function Asset() {
           labels: {
             show: true,
             name: { show: false },
-            value: { fontSize: '32px', fontWeight: 700, color: '#FFFFFF', offsetY: 8 },
+            value: { fontSize: '32px', fontWeight: 100, color: '#FFFFFF', offsetY: 8 },
             total: {
               show: true,
               showAlways: true,

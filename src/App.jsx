@@ -13,7 +13,7 @@ export default function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/dashboard" element={<Dashboard />} />
+        <Route path="/" element={<Dashboard />} />
         <Route path="/asset" element={<Asset />} />
         <Route path="/deposit" element={<Deposit />} />
         <Route path="/withdraw" element={<Withdraw />} />
